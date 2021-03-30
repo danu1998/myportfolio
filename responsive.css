@@ -1,4 +1,4 @@
-@media (max-width: 1000px){
+@media(min-width: 1024px) and (max-width: 1400px){
 .nav-second a{
     font-size: 12px;
     padding-right: 40px;
@@ -7,12 +7,54 @@
     /* body wrapper */
 
     .body-wrapper{
+        background-color: var(--primary-color);
+        margin-top: 120px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        height: 400px;
+        padding: 0 120px;
+    }
+
+    .body-wrapper img{
+        height: 400px;
+    }
+    
+    .body-content{
+        flex-basis: 40%;
+        margin-top: 60px;
+    }
+    
+    .body-content p{
+        font-size: var(--xs-font);
+        color: white;
+        line-height: 40px;
+    }
+    
+    .body-content h3{
+        font-size: var(--xlg-font);
+        color: white;
+        margin: 30px 0 60px;
+    }
+    
+    .btn{
+        padding: 20px 60px;
+    }
+    
+    .btn-shop{
+        background-color: white;
+       font-size: var(--xs-font);
+       font-weight: 600;
+       color: var(--primary-color);
+    }
+
+    /* .body-wrapper{
         height: 400px;
         padding: 20px 60px;
     }
 
     .body-content{
-        margin-top: 90px;
+        
     }
 
     .body-content p{
@@ -28,9 +70,9 @@
     }
     
     
-    .img-body{
-        float: right;
-        height: 380px;
+    .body-wrapper img{
+        width: 50%;
+        position: absolute;
     }
 
     .btn{
@@ -40,11 +82,59 @@
 
     .btn-shop{
         font-size: 12px;
-    }
+    } */
 
 }
 
-@media(min-width: 360px) and (max-width: 700px){
+
+@media(min-width: 768px) and (max-width: 1024px){
+    
+    /* --------------- Ini Body Wrapper -------------- */
+    
+    .body-wrapper{
+        background-color: var(--primary-color);
+        margin-top: 120px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        height: 300px;
+        padding: 0 90px;
+    }
+
+    .body-wrapper img{
+        height: 300px;
+    }
+    
+    .body-content{
+        flex-basis: 40%;
+        margin-top: 30px;
+    }
+    
+    .body-content p{
+        font-size: var(--xxs-font);
+        color: white;
+        line-height: 20px;
+    }
+    
+    .body-content h3{
+        font-size: var(--lg-font);
+        color: white;
+        margin: 30px 0 60px;
+    }
+    
+    .btn{
+        padding: 10px 30px;
+    }
+    
+    .btn-shop{
+        background-color: white;
+       font-size: var(--xxs-font);
+       font-weight: 600;
+       color: var(--primary-color);
+    }
+}
+
+@media(min-width: 350px) and (max-width:768px){
     .nav-first .fa-bars{
         display: block;
         background-color: #ff7d94;
@@ -54,12 +144,19 @@
     .icon-set{
         display: none;
     }
-    .nav-second a{
-        font-size: 12px;
-        padding-right: 30px;
-        text-align: center;
+
+    .nav-second{
+      text-align: center;
     }
 
+    .nav-second a{
+        font-size: 12px;
+        padding:0 15px;
+    }
+
+    .nav-second span{
+        margin-left: -10px;
+    }
     .disable{
         display: none;
     }
@@ -67,14 +164,24 @@
     /* Body Wrapper */
 
     .body-wrapper{
+        background-color: var(--primary-color);
+        margin-top: 120px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
         height: 200px;
-        padding: 20px 40px;
+        padding: 0 30px;
     }
 
+    .body-wrapper img{
+        height: 200px;
+    }
+    
     .body-content{
-        margin-top: 20px;
+        flex-basis: 40%;
+        margin-top: 40px;
     }
-
+    
     .body-content p{
         font-size: var(--xxxs-font);
         color: white;
@@ -84,25 +191,22 @@
     .body-content h3{
         font-size: var(--sm-font);
         color: white;
-        margin: 10px 0 20px;
+        margin: 10px 0 10px;
     }
     
-    
-    .img-body{
-        float: right;
-        height: 180px;
-    }
-
     .btn{
-        padding: 10px 20px;
-
+        padding: 5px 10px;
     }
-
+    
     .btn-shop{
-        font-size: 12px;
+        background-color: white;
+       font-size: 10px;
+       font-weight: 600;
+       color: var(--primary-color);
     }
+    
 
-    .main-wrapper{
+    /* .main-wrapper{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         gap: 10px;
@@ -142,5 +246,5 @@
         margin-top: 0px;
         position: absolute;
         font-weight: 600;
-    }
+    } */
 }
