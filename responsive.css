@@ -1,14 +1,16 @@
 @media(min-width: 1024px) and (max-width: 1400px){
-.nav-second a{
-    font-size: 12px;
-    padding-right: 40px;
-}
+
+
+
+
+
+
 
     /* body wrapper */
 
     .body-wrapper{
         background-color: var(--primary-color);
-        margin-top: 120px;
+        margin-top: 90px;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
@@ -48,52 +50,24 @@
        color: var(--primary-color);
     }
 
-    /* .body-wrapper{
-        height: 400px;
-        padding: 20px 60px;
-    }
 
-    .body-content{
-        
-    }
 
-    .body-content p{
-        font-size: var(--xxs-font);
-        color: white;
-        line-height: 20px;
-    }
-    
-    .body-content h3{
-        font-size: var(--lg-font);
-        color: white;
-        margin: 10px 0 20px;
-    }
-    
-    
-    .body-wrapper img{
-        width: 50%;
-        position: absolute;
-    }
-
-    .btn{
-        padding: 15px 30px;
-
-    }
-
-    .btn-shop{
-        font-size: 12px;
-    } */
 
 }
 
 
 @media(min-width: 768px) and (max-width: 1024px){
+
+    .nav-second a{
+        font-size: 12px;
+        padding-right: 40px;
+    }
     
     /* --------------- Ini Body Wrapper -------------- */
     
     .body-wrapper{
         background-color: var(--primary-color);
-        margin-top: 120px;
+        margin-top: 90px;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
@@ -135,33 +109,34 @@
 }
 
 @media(min-width: 375px) and (max-width:768px){
-    .nav-first .fa-bars{
-        display: block;
-        background-color: #ff7d94;
-        color: white;
-    }
-
+   
     .icon-set{
         display: none;
     }
 
-    .nav-second a{
-        font-size: 12px;
-        padding:0 15px;
+    .nav-first .fa-bars{
+        display: block;
+        background-color: #ff7d94;
+        color: #fff;
+        padding: 10px;
     }
 
-    .nav-second span{
-        margin-left: -10px;
+    .nav-second a{
+        font-size: 12px;
+        padding-right: 30px;
     }
+
     .disable{
         display: none;
     }
+
+
 
     /* Body Wrapper */
 
     .body-wrapper{
         background-color: var(--primary-color);
-        margin-top: 120px;
+        margin-top: 30px;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
@@ -201,78 +176,39 @@
        color: var(--primary-color);
     }
     
-
-    /* .main-wrapper{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        gap: 10px;
-        margin-top: 20px;
-    }
-
-    .main img{
-        width: 120px;
-        height: 80px;
-    }
-
-
-    .main-content{
-        position: absolute;
-        margin: 0px 10px;
-        width: 100px;
-        height: 100px;
-    }
     
-    .main-content p{
-        font-size: 10px;
-        font-weight: 400;
-        color: white;
-        margin-top: 5px;
-    }
+ 
     
-    .main-content h3{
-        font-size: var(--xxxs-font);
-        font-weight: 700;
-        margin-top: 5px;
-        color: white;
-    }
-    
-    .link-shop{
-        color: white;
-        font-size: var(--xxxs-font);
-        margin-top: 0px;
-        position: absolute;
-        font-weight: 600;
-    } */
 }
 
 @media(min-width: 320px) and (max-width: 375px){
 
-    .nav-first .fa-bars{
-        display: block;
-        background-color: #ff7d94;
-        color: white;
-    }
+  
 
     .icon-set{
         display: none;
     }
-
+    .nav-first .fa-bars{
+        display: block;
+        background-color: #ff7d94;
+        color: #fff;
+        padding: 10px;
+    }
     .nav-second a{
         font-size: 10px;
-        padding:0 10px;
-    }
-
-    .nav-second span{
-        margin-left: -10px;
+        padding-right: 30px;
     }
     .disable{
         display: none;
     }
 
 
+
+
+
     .body-wrapper{
         background-color: var(--primary-color);
-        margin-top: 120px;
+        margin-top: 30px;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
