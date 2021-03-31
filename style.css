@@ -317,3 +317,46 @@ li{
 } */
 
 
+.main-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.main{
+    position: relative;
+}
+
+.main-content{
+    position: absolute;
+    top: 50px;
+    margin-left: 20px;
+}
+
+.main-content h3{
+    font-size: var(--xs-font);
+    font-weight: 600;
+    color: white;
+}
+
+.main-content p{
+    font-size: var(--md-font);
+    font-weight: 700;
+    margin-top: 10px;
+    color: white;
+}
+
+.link-shop{
+    color: white;
+    font-size: var(--xs-font);
+    margin-top: 60px;
+    position: absolute;
+    font-weight: 600;
+}
+
+.fa-arrow-right{
+    margin-left: 20px;
+}
+
+
